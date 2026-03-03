@@ -25,7 +25,7 @@ input{
 }
 
 small{
-    color: red;
+    color: rgb(100, 99, 100);
     background-color: white;
     font-size: 12px;
 }
@@ -126,19 +126,19 @@ div{
   content: "";
   height: 16px;
   width: 16px;
-  left: 2px;
-  top: 2px;
-  background-color: rgb(184, 182, 182);
+  right: 2px;
+  top: 1px;
+  background-color: rgb(214, 185, 185);
   border-radius: 50%;
   transition: 0.3s;
 }
 
-.switch input:checked + .slider {
-  background-color: #ffffff;
+.switch input:checked + .slider  {
+  background-color: rgb(83, 83, 243);
 }
 
 .switch input:checked + .slider:before {
-  transform: translateX(20px);
+  transform: translateX(-19px);
 }
 
 .label{
