@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    color: rgb(100, 99, 100);
+}
+
+form {
+    width: 300px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+label{
+    color: rgb(100, 99, 100);
+    background-color: white;
+}
+
+input{
+  background-color: white;
+}
+
+small{
+    color: red;
+    background-color: white;
+    font-size: 12px;
+}
+
+select{
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border-color: #3895f8;
+    
+}
+
+.option{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.text{
+  height: 20px;
+  width: 255px;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border-color: #ccbdbd;
+}
+
+.error{
+  height: 20px;
+  width: 255px;
+  border-radius: 8px;
+  padding: 8px 20px;
+  border: 1.5px solid red;
+}
+
+div{
+  background-color: white;
+}
+
+.input-group {
+    position: relative;
+}
+
+.error-icon{
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #d9534f;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.error-message{
+  background-color: white;
+  font-size: 0.85rem;
+  color: red;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 34px;
+  transition: 0.3s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  top: 2px;
+  background-color: rgb(184, 182, 182);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.switch input:checked + .slider {
+  background-color: #ffffff;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+.label{
+  background-color: white;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancel{
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit{
+  padding: 10px 30px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
